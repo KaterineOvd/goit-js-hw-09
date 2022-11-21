@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.switcher {
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+button {
+  border-radius: 10px;
+  width: 150px;
+  height: 42px;
+  margin: 0 20px;
+  background:  rgb(8, 122, 133);
+  color:  rgb(247, 240, 245);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+ }
+
+button:disabled {
+  margin: 0 20px;
+   background: rgb(143, 240, 248);
+  color:  rgb(65, 178, 189);
+  box-shadow: none;
+}
+
+input {
+  height: 40px;
+  text-align: center;
+  font-size: large;
+  border-radius: 8px;
+  border-color:rgb(45, 122, 129);
+  color: rgb(8, 122, 133);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+   padding: 10px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.timer-container {
+text-align: center;
+margin: 0 auto;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+   }
+
+   .value {
+    color: rgb(8, 122, 133);
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .label {
+    color: rgb(8, 122, 133);
+    font-weight: 400;
+    font-size: 20px;
+  }
