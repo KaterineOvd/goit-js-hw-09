@@ -17,12 +17,6 @@ img {
   max-width: 100%;
 }
 
-.switcher {
-  text-align: center;
-  margin: 0 auto;
-  
-}
-
 button {
   border-radius: 10px;
   width: 150px;
@@ -50,6 +44,11 @@ input {
   border-radius: 8px;
   border-color:rgb(45, 122, 129);
   color: rgb(8, 122, 133);
+}
+
+.switcher {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .form {
